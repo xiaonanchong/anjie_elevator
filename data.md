@@ -1,4 +1,4 @@
-Normal data: 
+Normal data:  
 | | speed (rpm)   | file name (.mat) |  
 |-| -------------:|:----------------:|  
 | | 1997          | 97               |  
