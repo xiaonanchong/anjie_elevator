@@ -6,4 +6,5 @@ x2, y2 = utilities.form_training_data([118,119,120,121, 185,186,187,188, 222,223
 
 x3, y3 = utilities.form_training_data([130,131,132,133, 197,198,199,200, 234,235,236,237, 294,295,296,297, 310,309,311,312, 315,316,317,318], [1,0,0])
 
-
+x_train = utilities.concatenate([x1,x2,x3])
+y_train = utilities.concatenate([y1,y2,y3])

@@ -42,5 +42,12 @@ def form_training_data(file_list, label, slice_len=3000):#[97, 105], [1,0,0]
 	y_train = np.concatenate((y_trian, y), axis = 0)
 	return x_train, y_train
 
+def concatenate(data_list):
+	import numpy as np
+	x = data_list[0]
+	for i in data_list[1:]:
+		x = np.concatenate((x, i), axis = 0)
+	return x
+
 
 #loadmatlabfile('/home/anjie/data/', '97.mat')
