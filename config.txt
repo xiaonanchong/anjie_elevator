@@ -1,0 +1,16 @@
+[login_redis]
+host = 192.168.1.190
+port = 6379
+database = 0
+
+[sensor]
+ID:[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+
+[login_mysql]
+host = 192.168.1.190
+username = root
+password = AAAjjj000
+database = kylin
+
+[data]
+directory = '/home/anjie/'
